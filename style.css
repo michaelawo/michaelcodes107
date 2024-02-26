@@ -1,0 +1,93 @@
+body{
+    background-color: #8bcbf9;
+}
+
+/*This is the styling for the container*/
+
+
+.container{
+    display: inline-flex;
+    gap: 100px;
+    border-radius: 10%;
+    height: 50vh;
+    align-items: center;
+    border-left: 100px;
+    padding: 100px;
+}
+
+/*This is the styling for the container holding the image of the phone*/
+#phone {
+
+background-image: url(Samsung.jpg);
+height: 400px;
+width: 600px;
+border-radius: 1%;
+}
+
+/*This is the styling for all the text related items*/
+#writing{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*This contains the styling for the "OLD SAMSUNG GIVEAWAY"*/
+#heading{
+    text-align: justify;
+    font-size: 30px;
+    color: #243a52;
+}
+
+/*This contains the styling for the deadline of the giveaway*/
+#ending{
+    text-align: justify;
+    font-size: 20px;
+    color: #2e5c8d;
+}
+
+/*This contains the styling for "Lorem Ipsum"*/
+#text{
+    display: inline-flex;
+    color: #052338;
+    flex-basis: 600px;
+    flex-direction: column;
+    align-content: center;
+    text-align: justify;
+    width: 550px;
+    
+}
+.class{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#countdown{
+    display: inline-flex;
+    align-content: center;
+    gap:15px;
+    justify-content: space-evenly;
+}
+.digit
+{
+    font-size: 50px;
+}
+.time{
+    font-weight: bold;
+    background-blend-mode: darken;
+    margin: 0px;
+    height: fit-content;
+    
+}
+.character{
+    font-size: 15px;
+    line-height: 1;
+}
+
+@media(max-width: 600px){
+    .container{
+        font-size: smaller;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
