@@ -18,10 +18,11 @@ body{
 /*This is the styling for the container holding the image of the phone*/
 #phone {
 
-background-image: url(Samsung.jpg);
-height: 400px;
-width: 600px;
-border-radius: 1%;
+display: flex;
+border-radius: 10%;
+height: 25rem;
+border: 0%;
+padding: 0%;
 }
 
 /*This is the styling for all the text related items*/
