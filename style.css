@@ -1,5 +1,5 @@
 body{
-    background-color:  #E8B132;
+    background-color:  #000000;
 }
 
 /*This is the styling for the container*/
@@ -28,26 +28,27 @@ padding: 0%;
 /*This is the styling for all the text related items*/
 #writing{
     font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
 }
 
 /*This contains the styling for the "OLD SAMSUNG GIVEAWAY"*/
 #heading{
     text-align: justify;
     font-size: 30px;
-    color: #243a52;
+    color: #ffffff;
 }
 
 /*This contains the styling for the deadline of the giveaway*/
 #ending{
     text-align: justify;
     font-size: 20px;
-    color: #2e5c8d;
+    color: #ffffff;
 }
 
 /*This contains the styling for "Lorem Ipsum"*/
 #text{
     display: inline-flex;
-    color: #052338;
+    color: #ffffff;
     flex-basis: 600px;
     flex-direction: column;
     align-content: center;
